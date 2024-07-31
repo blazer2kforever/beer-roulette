@@ -18,6 +18,8 @@
 @import url(../blocks/header/__user-name/header__user-name.css);
 @import url(../blocks/header/__user-extra/header__user-extra.css);
 
+@import url(../blocks/game/game.css);
+
 @import url(../blocks/roulette-container/roulette-container.css);
 @import url(../blocks/roulette/roulette.css);
 @import url(../blocks/roulette/_place/roulette_place.css);
@@ -32,4 +34,4 @@
 @import url(../blocks/wheel/__sector/_glow/wheel__sector_glow.css);
 @import url(../blocks/wheel/__sector-text/wheel__sector-text.css);
 
-@import url(../blocks/game/game.css);
+@import url(../blocks/button/button.css);

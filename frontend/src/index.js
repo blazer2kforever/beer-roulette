@@ -7,7 +7,7 @@ let popupController;
 let overlay;
 let roulette;
 
-const testButton = document.querySelector('.test');
+const testButton = document.getElementById('test');
 
 function init() {
   console.log('Initialization...');
