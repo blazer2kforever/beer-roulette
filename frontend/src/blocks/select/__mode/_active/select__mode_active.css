@@ -1,0 +1,7 @@
+.select__mode_active {
+  position: relative;
+
+  background-color: #1d1f24;
+
+  filter: brightness(100%);
+}

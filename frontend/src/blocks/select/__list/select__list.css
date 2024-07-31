@@ -1,0 +1,12 @@
+.select-list {
+  display: flex;
+
+  width: 100%;
+  height: 60px;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+
+  flex-direction: row;
+
+  background: #282a2f;
+}

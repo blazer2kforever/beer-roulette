@@ -72,3 +72,15 @@
     background: #dccb33;
   }
 }
+
+@keyframes grow-bounce {
+  0% {
+    font-size: 0;
+  }
+  80% {
+    font-size: 34px;
+  }
+  100% {
+    font-size: 30px;
+  }
+}

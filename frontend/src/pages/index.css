@@ -8,7 +8,6 @@
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_state/popup_state_show.css);
-@import url(../blocks/popup/_state/popup_state_hide.css);
 @import url(../blocks/popup/__header/popup__header.css);
 @import url(../blocks/popup/__text/popup__text.css);
 
@@ -33,5 +32,11 @@
 @import url(../blocks/wheel/__sector/_blurred/wheel__sector_blurred.css);
 @import url(../blocks/wheel/__sector/_glow/wheel__sector_glow.css);
 @import url(../blocks/wheel/__sector-text/wheel__sector-text.css);
+
+@import url(../blocks/select/select.css);
+@import url(../blocks/select/__list/select__list.css);
+@import url(../blocks/select/__mode/select__mode.css);
+@import url(../blocks/select/__mode/_active/select__mode_active.css);
+@import url(../blocks/select/__text/select__text.css);
 
 @import url(../blocks/button/button.css);

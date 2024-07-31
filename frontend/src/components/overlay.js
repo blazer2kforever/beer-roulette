@@ -1,6 +1,6 @@
 import { overlayConfig } from './utils';
 
-class Overlay {
+class OverlayController {
   constructor() {
     this.object = document.querySelector(overlayConfig.selector);
   }
@@ -12,7 +12,7 @@ class Overlay {
       'animationend',
       () => {
         this.object.style.visibility = 'hidden';
-        console.log('Overlay is hidden');
+        console.log('Overlay hidden');
       },
       { once: true }
     );
@@ -22,14 +22,14 @@ class Overlay {
     if (!this.object || !time) return;
     this.object.style.visibility = 'visible';
     this.object.style.animation = `fade-in ${time}s ease forwards`;
-    console.log('Overlay is displayed');
+    console.log('Overlay displayed');
   }
 
   dim(time) {
     if (!this.object || !time) return;
     this.object.style.visibility = 'visible';
     this.object.style.animation = `fade-in-80percent ${time}s ease forwards`;
-    console.log('Overlay is dimmed');
+    console.log('Overlay dimmed');
   }
 
   getObject() {
@@ -37,4 +37,4 @@ class Overlay {
   }
 }
 
-export { Overlay };
+export { OverlayController };

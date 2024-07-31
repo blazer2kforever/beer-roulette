@@ -1,0 +1,40 @@
+.select__mode {
+  display: flex;
+
+  height: 100%;
+  flex: 1;
+  border: none;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+
+  justify-content: center;
+  align-items: center;
+
+  font-family: Montserrat;
+  font-size: 0;
+  text-align: center;
+  color: #959595;
+
+  background: transparent;
+
+  transition: all 0.25s ease;
+  filter: brightness(50%);
+  cursor: pointer;
+  animation: grow-bounce 0.75s ease forwards;
+}
+
+.select__mode:nth-child(1) {
+  animation-delay: 0;
+}
+
+.select__mode:nth-child(2) {
+  animation-delay: 0.25s;
+}
+
+.select__mode:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+.select__mode:nth-child(4) {
+  animation-delay: 0.75s;
+}

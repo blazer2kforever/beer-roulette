@@ -5,7 +5,6 @@ class PopupController {
     this.errorTemplate = document.querySelector(
       popupConfig.errorTemplateSelector
     ).content;
-    console.log(this.errorTemplate);
   }
   showError(message) {
     const popupClone = document.importNode(this.errorTemplate, true);
@@ -20,7 +19,7 @@ class PopupController {
     }, 50); // Slight delay so the browser shows anim correctly
 
     setTimeout(() => {
-      popup.classList.add(popupConfig.hideStateClass);
+      popup.classList.remove(popupConfig.showStateClass);
 
       popup.addEventListener(
         'transitionend',
