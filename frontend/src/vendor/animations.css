@@ -33,3 +33,42 @@
     transform: translateY(0);
   }
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes motion-blur {
+  0% {
+    filter: blur(0.25px);
+  }
+  5% {
+    filter: blur(1.5px);
+  }
+  10% {
+    filter: blur(1px);
+  }
+  30% {
+    filter: blur(0.25px);
+  }
+  40% {
+    filter: blur(0);
+  }
+}
+
+@keyframes glow-golden {
+  0% {
+    background: #dccb33;
+  }
+  50% {
+    background: #bd8f06;
+  }
+  100% {
+    background: #dccb33;
+  }
+}

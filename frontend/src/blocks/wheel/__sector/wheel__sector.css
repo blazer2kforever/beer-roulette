@@ -1,0 +1,28 @@
+.wheel__sector {
+  position: absolute;
+  left: 33%;
+  display: flex;
+
+  width: calc(250px / 10 * 3);
+  height: 50%;
+  clip-path: polygon(100% 0, 50% 100%, 0 0);
+  transform: translateX(-50%);
+  transform-origin: bottom;
+  align-items: center;
+
+  writing-mode: vertical-rl;
+
+  background: linear-gradient(
+    180deg,
+    rgb(70, 137, 25) 0%,
+    rgb(110, 200, 51) 100%
+  );
+}
+
+.wheel__sector:nth-child(2n) {
+  background: linear-gradient(
+    180deg,
+    rgb(69, 125, 32) 0%,
+    rgb(88, 160, 41) 100%
+  );
+}

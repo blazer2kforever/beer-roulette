@@ -1,0 +1,11 @@
+.wheel__sector-text {
+  margin-top: calc(250px / 15);
+
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+
+  text-shadow: #fc0 1px 0 10px;
+}

@@ -1,0 +1,19 @@
+.roulette__centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+
+  width: calc(250px / 6);
+  height: calc(250px / 6);
+  transform: translate(-50%, -50%);
+  border: 5px solid #fff;
+  border-radius: 50%;
+
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  color: #fff;
+
+  background-color: #e2e2e2;
+}

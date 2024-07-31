@@ -10,6 +10,20 @@
 @import url(../blocks/header/__user-name/header__user-name.css);
 @import url(../blocks/header/__user-extra/header__user-extra.css);
 
+@import url(../blocks/roulette-container/roulette-container.css);
+@import url(../blocks/roulette/roulette.css);
+@import url(../blocks/roulette/_place/roulette_place.css);
+@import url(../blocks/roulette/__arrow/roulette__arrow.css);
+@import url(../blocks/roulette/__centre/roulette__centre.css);
+
+@import url(../blocks/wheel/wheel.css);
+@import url(../blocks/wheel/_idle/wheel_idle.css);
+@import url(../blocks/wheel/__sector/wheel__sector.css);
+@import url(../blocks/wheel/__sector/_lose/wheel__sector_lose.css);
+@import url(../blocks/wheel/__sector/_blurred/wheel__sector_blurred.css);
+@import url(../blocks/wheel/__sector/_glow/wheel__sector_glow.css);
+@import url(../blocks/wheel/__sector-text/wheel__sector-text.css);
+
 @import url(../blocks/game/game.css);
 
 @import url(../blocks/overlay/overlay.css);

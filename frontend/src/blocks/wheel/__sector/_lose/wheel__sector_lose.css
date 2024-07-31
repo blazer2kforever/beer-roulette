@@ -1,0 +1,15 @@
+.wheel__sector_lose {
+  background: linear-gradient(
+    180deg,
+    rgb(138, 27, 27) 0%,
+    rgb(189, 38, 38) 100%
+  );
+}
+
+.wheel__sector_lose:nth-child(2n) {
+  background: linear-gradient(
+    180deg,
+    rgb(114, 22, 22) 0%,
+    rgb(168, 34, 34) 100%
+  );
+}

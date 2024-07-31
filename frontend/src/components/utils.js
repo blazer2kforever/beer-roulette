@@ -1,5 +1,14 @@
 const pageSelectors = {
   overlay: '.overlay',
+  wheel: '.wheel',
+  wheelSectorTemplate: '#sector-template',
+  wheelSector: '.wheel__sector',
+  wheelSectorLose: '.wheel__sector_lose',
+  wheelSectorText: '.wheel__sector-text',
 };
 
-export { pageSelectors };
+const rouletteConfig = {
+  sectorQuantity: 10,
+};
+
+export { pageSelectors, rouletteConfig };

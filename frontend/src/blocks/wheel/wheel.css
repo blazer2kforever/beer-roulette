@@ -1,0 +1,12 @@
+.wheel {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 15px solid #dde;
+  overflow: hidden;
+
+  background-color: #ccc;
+  box-shadow: 0 0 30px rgba(110, 33, 254, 0.6);
+}
