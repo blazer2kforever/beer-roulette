@@ -1,0 +1,6 @@
+**/.DS_Store
+
+.editorconfig
+.prettierrc
+
+/frontend/node_modules
