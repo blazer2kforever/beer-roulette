@@ -9,6 +9,8 @@ const pageSelectors = {
 
 const rouletteConfig = {
   sectorQuantity: 10,
+  winSectorPlaceholder: 'Drink',
+  loseSectorPlaceholder: "Don't",
 };
 
 export { pageSelectors, rouletteConfig };

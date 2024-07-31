@@ -10,6 +10,7 @@ class Overlay {
       'animationend',
       () => {
         this.object.style.visibility = 'hidden';
+        console.log('Overlay is hidden');
       },
       { once: true }
     );
@@ -19,12 +20,14 @@ class Overlay {
     if (!this.object || !time) return;
     this.object.style.visibility = 'visible';
     this.object.style.animation = `fade-in ${time}s ease forwards`;
+    console.log('Overlay is displayed');
   }
 
   dim(time) {
     if (!this.object || !time) return;
     this.object.style.visibility = 'visible';
     this.object.style.animation = `fade-in-80percent ${time}s ease forwards`;
+    console.log('Overlay is dimmed');
   }
 
   getObject() {

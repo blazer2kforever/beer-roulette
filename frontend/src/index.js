@@ -7,6 +7,7 @@ let overlay;
 let roulette;
 
 function init() {
+  console.log('Initialization...');
   setupOverlay();
   setupRoulette();
 }
@@ -19,6 +20,7 @@ function setupOverlay() {
 function setupRoulette() {
   roulette = new Roulette();
   roulette.createSectors();
+  roulette.defineLoseSectors(3);
 }
 
 document.addEventListener(
