@@ -1,0 +1,15 @@
+@import url(../vendor/global.css);
+@import url(../fonts/fonts.css);
+@import url(../vendor/animations.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__pic/header__pic.css);
+@import url(../blocks/header/__user-container/header__user-container.css);
+@import url(../blocks/header/__user-name/header__user-name.css);
+@import url(../blocks/header/__user-extra/header__user-extra.css);
+
+@import url(../blocks/game/game.css);
+
+@import url(../blocks/overlay/overlay.css);

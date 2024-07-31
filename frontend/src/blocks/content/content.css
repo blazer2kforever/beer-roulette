@@ -1,0 +1,11 @@
+.content {
+  margin: 0;
+  height: 100vh;
+
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+
+  background-color: #000;
+
+  user-select: none;
+}
