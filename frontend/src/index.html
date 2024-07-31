@@ -10,6 +10,13 @@
     <title>🍺 Beer Wheel of Fortune</title>
   </head>
   <body class="content">
+    <template id="popup-error-template">
+      <div class="popup">
+        <p class="popup__header">Error</p>
+        <p class="popup__text"></p>
+      </div>
+    </template>
+    <div class="overlay"></div>
     <header class="header">
       <img class="header__pic" src="<%=require('./images/pic.jpg')%>" alt="" />
       <div class="header__user-container">
@@ -31,7 +38,7 @@
           </div>
         </div>
       </div>
+      <button class="test">Click</button>
     </main>
-    <div class="overlay"></div>
   </body>
 </html>

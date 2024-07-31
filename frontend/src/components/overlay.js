@@ -1,6 +1,8 @@
+import { overlayConfig } from './utils';
+
 class Overlay {
-  constructor(selector) {
-    this.object = document.querySelector(selector);
+  constructor() {
+    this.object = document.querySelector(overlayConfig.selector);
   }
 
   hide(time) {
